@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
   <body>
-    <p>This is a whois server written in Golang</p>
+    <form id="whoIsInput">
+      IP Address or Domain Name:
+      <input type="text" id="input" placeholder="e.g. 216.58.216.164 or example.com" />
+      <button type="submit">Whois</button>
+    </form>
+    <div id="resultDiv"></div>
+    <script src="index.js"></script>
   </body>
 </html>
